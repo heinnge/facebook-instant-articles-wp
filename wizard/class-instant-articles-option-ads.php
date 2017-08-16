@@ -62,10 +62,11 @@ class Instant_Articles_Option_Ads extends Instant_Articles_Option {
 			'label' => 'Ad Dimensions',
 			'render' => 'select',
 			'select_options' => array(
+                '400x600' => 'XLarge (400 x 600)',
 				'300x250' => 'Large (300 x 250)',
 				'320x50' => 'Small (320 x 50)',
 			),
-			'default' => '300x250',
+			'default' => '400x600',
 		),
 
 	);
